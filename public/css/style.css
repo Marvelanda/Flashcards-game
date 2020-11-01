@@ -1,0 +1,139 @@
+.hidden {
+  display: none;
+}
+
+.card_list {
+  color: #15684fc4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  border: solid 2px rgb(206, 58, 83);
+}
+
+.card_list a {
+  color: #0f8183c4;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-content {
+  text-align: center;
+  font-size: 70px;
+  top: -35px;
+}
+.new-wrapper {
+  font-size: 100px;
+}
+
+.nav-title {
+  color: #0f8183c4;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+/******************* FORMOCHKA  ******************/
+
+body {
+  font-size: 1.4rem; /* font-size: 14px; */
+  background-color: #f4f4fc;
+  /* color: ; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 40px;
+  margin-top: 175px;
+  margin-bottom: 0;
+  color: #0f7783c4;
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+h2 {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 40px;
+  margin-top: 250px;
+  margin-bottom: 60px;
+  color: #0f8183c4;
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+h3 {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 40px;
+  margin-top: 300px;
+  margin-bottom: 60px;
+  color: #0f8183c4;
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+h4 {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 40px;
+  margin-top: 350px;
+  margin-bottom: 60px;
+  color: #0f8183c4;
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+h5 {
+  color: #0f8183c4;
+}
+
+img {
+  position: absolute;
+  left: 28px;
+  top: 10px;
+}
+
+#register_form {
+  margin-top: 20px;
+}
+
+#login_form {
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #0f8183c4;
+  color: #0f8183c4;
+}
+
+.row {
+  width: 700px;
+}
+
+.all {
+  color: white;
+}
