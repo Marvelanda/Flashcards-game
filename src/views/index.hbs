@@ -1,0 +1,51 @@
+{{!-- <div class="row "> --}}
+<p data-name="messageForUser" class="hidden"></p>
+
+<form id="register_form" action="/register" method="POST" class="col s12 hidden">
+
+  <div class="input-field col s12">
+    <input name="username" id="last_name" type="text" class="validate" required>
+    <label for="last_name">Username</label>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="input-field col s12">
+      <input name="email" id="email" type="email" class="validate" required>
+      <label for="email">Email</label>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="input-field col s12">
+      <input name="password" id="password" type="password" class="validate" required>
+      <label for="password">Password</label>
+      <button class="waves-effect waves-light btn-large" type="submit">Register</button>
+    </div>
+  </div>
+
+</form>
+
+
+<form id="login_form" action="/login" method="POST" class="col s12 hidden">
+
+  <div class="row">
+    <div class="input-field col s12">
+      <input name="emailLogin" id="emailLogin" type="email" class="validate">
+      <label for="emailLogin">Email</label>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="input-field col s12">
+      <input name="loginPassword" id="loginPassword" type="password" class="validate">
+      <label for="loginPassword">Password</label>
+      <button class="waves-effect waves-light btn-large">Login</button>
+    </div>
+  </div>
+
+</form>
+
+<img src="girls-code.png">

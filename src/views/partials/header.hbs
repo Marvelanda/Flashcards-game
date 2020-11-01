@@ -1,0 +1,18 @@
+<nav class="nav-extended HomePage pink lighten-4">
+  <div class="nav-wrapper">
+    <ul class="right hide-on-med-and-down">
+      <li class="py-2 d-none d-md-inline-block"><a href="/">Home</a></li>
+      {{#if username}}
+      <li class="py-2 d-none d-md-inline-block"><a href="/card">Cards</a></li>
+      <li class="py-2 d-none d-md-inline-block"><a href="/{{id}}">{{username}}</a></li>
+      <li class="py-2 d-none d-md-inline-block"><a href="/logout">Log out</a></li>
+      {{else}}
+      <li class="py-2 d-none d-md-inline-block"><a data-name="registration" href="/register">Sign up</a></li>
+      <li class="py-2 d-none d-md-inline-block"><a data-name="login" href="/login">Log in</a></li>
+      {{/if}}
+    </ul>
+  </div>
+  <div class="nav-content">
+    <span class="nav-title">Flashcards Game</span>
+  </div>
+</nav>

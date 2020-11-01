@@ -1,0 +1,13 @@
+<h1>Card</h1>
+<form id="{{themeId}}" class="card_form" action="/{{themeId}}/{{id}}" method="POST">
+  <p class="question" id="{{id}}">{{question}}</p>
+  <input name="answer" type="text" placeholder="Please answer">
+  <button data-name="submit_button" type="submit">Click</button>
+
+</form>
+<form class="card_form" action="/card/next/{{themeId}}">
+  <a href="/"><button data-name="next_button" class="hidden">Next</button></a>
+</form>
+
+
+

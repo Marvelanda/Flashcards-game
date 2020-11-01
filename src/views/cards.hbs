@@ -1,0 +1,7 @@
+<ul class="card_list pink lighten-4">
+  <p class="pink lighten-4"><b>Пожалуйста, выберите категорию:</b></p>
+  {{#each cards}}
+  <span id={{this._id}}><a href="/card/{{this._id}}">{{this.title}}</a></span>
+  {{/each}}
+</ul>
+<style>

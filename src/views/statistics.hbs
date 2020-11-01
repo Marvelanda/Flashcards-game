@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col s12 m100">
+
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">Ваш счёт за текущий раунд:</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col s12 m100">
+
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <p>Правильных ответов с первой попытки : {{rightAnswers}}</p>
+          <p> Всего ответов : {{totalAnswers}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m100">
+
+      <div class="card blue-grey darken-1">
+        <form action="/card/profile" method="POST" class="card-content white-text">
+          <p>Если хотите сохранить результат, введите e-mail</p>
+          <input name="result" type="text">
+          <button type="submit">Сохранить результат</button>
+        </form>
+      </div>
+    </div>
+  </div>
